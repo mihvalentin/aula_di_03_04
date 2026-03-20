@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #c0c0c0;
+    color: #fff;
+    text-align: center;
+}
+nav a{
+     color: blue;
+     text-decoration: none;
+     padding: 4px;
+}
+.bloco{
+    background-color: #cccc;
+    color: black;
+    border: 1px dotted #a3a3;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-top: 2px solid rgb(255, 0, 255);
+}
+
