@@ -25,4 +25,25 @@ nav a{
     margin-bottom: 16px;
     border-top: 2px solid rgb(255, 0, 255);
 }
-
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start; 
+    padding: 20px;
+}
+.foto{
+    background: #ffffff;
+    padding: 12px 12px 20px 12px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 4px 10px #0000;
+    width: 220px;
+    text-align: center;
+    border-radius: 4px;
+}
+.foto img{
+    width: 100px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
